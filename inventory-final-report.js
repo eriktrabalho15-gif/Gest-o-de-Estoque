@@ -20,7 +20,7 @@ function finalInventoryReport(inv){
 let finalReportView={id:null,tab:'divergent',page:1};
 function showFinalInventoryReport(){
  if(page!==4||typeof canManageOfficial!=='function')return;
- const inv=inventories.find(i=>i.id===selectedInventory),detail=document.querySelector('.inventory-detail');
+ const inv=inventories.find(i=>i.id===selectedInventory),detail=document.querySelector('.official-management-summary, .inventory-detail');
  if(!inv||inv.status!=='Concluído'||!canManageOfficial(inv.unit)||!detail||document.querySelector('.counting-screen'))return;
  if(finalReportView.id!==inv.id)finalReportView={id:inv.id,tab:'divergent',page:1};
  document.getElementById('final-inventory-report')?.remove();
