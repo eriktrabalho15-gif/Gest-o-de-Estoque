@@ -8,3 +8,16 @@
 @media(max-width:700px){body,button,input,select,textarea{font-weight:400}#content b,#content strong,#content td,#content td small,#content label,#content button,#content input,#content select,.login-session-summary b,.login-session-summary strong{font-weight:400!important}#content h2,#content h3{font-weight:600!important}.counting-screen .count-item-code,.counting-screen .allocation-code,.counting-screen .count-base span{font-weight:400}.counting-screen .task-save{min-height:16px}.counting-screen .bp-save-count{display:none!important}}
 
 .assignment-split-toggle{display:flex;align-items:center;gap:10px}.assignment-split-toggle input{width:18px;min-height:18px}.inventory-wms-toolbar{margin:10px 0}.wms-change-history{margin-top:20px}.wms-change-history summary{cursor:pointer;padding:10px 0}.wms-change-history table{font-size:12px}#wms-current{display:block;margin:5px 0 12px}#wms-item-fields[hidden]{display:none!important}
+
+/* Quadro executivo para visualização e captura de tela. */
+.final-inventory-report {margin:18px 0;padding-bottom:16px;overflow:hidden}
+.final-report-print-card {padding-bottom:12px;background:#fff;border-bottom:1px solid #dce5ed}
+.final-report-print-card h2 {font-size:20px;font-weight:600}
+.final-report-metrics {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;padding:8px 20px}
+.final-report-metrics>div {padding:12px;border:1px solid #dce5ed;border-radius:8px;background:#f7fafc}
+.final-report-metrics span,.final-report-people>span {display:block;font-size:12px;color:#60748b}
+.final-report-metrics strong {display:block;font-size:25px;font-weight:600;margin-top:5px}
+.final-report-people {padding:10px 20px 0}.final-report-people p {margin:5px 0;font-size:13px;line-height:1.6;font-weight:400}
+.final-report-tabs {flex-wrap:wrap;padding:0 20px}
+.final-inventory-report>table {font-size:12px}
+@media(max-width:640px){.final-report-metrics{grid-template-columns:repeat(2,minmax(0,1fr));padding:8px 12px}.final-report-metrics>div:last-child{grid-column:1/-1}.final-report-metrics strong{font-size:22px}.final-report-people{padding:10px 12px 0}.final-report-print-card h2{font-size:18px}}
