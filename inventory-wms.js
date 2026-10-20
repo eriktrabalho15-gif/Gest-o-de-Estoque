@@ -21,3 +21,7 @@ function assignedWmsRows(inv,a,query=''){
  return rows;
 }
 function wmsTaskRow(inv,row,a,actor){if(!row.empty&&!row.alias&&row.line)return taskRow(inv,row.line,row.index,a,a.members.includes(actor.id),row.address);return `<tr><td><span class="allocation-code">${esc(row.address)}</span></td><td><span class="count-item-code">${esc(row.sku||'')}</span><small>${esc(row.empty?'Sem item cadastrado':row.name||row.line?.name||'')}</small></td><td><small>${row.empty?'Posição sem código na planilha WMS':row.line?'Item em mais de uma posição · quantidade total no primeiro endereço do item':'Item contado pela dupla do endereço principal'}</small></td></tr>`;}
+
+// Aplica apenas os nomes do catálogo; preserva contagens e alocações.
+const renderBeforeItemDescriptions=render;
+render=function(){for(const inv of inventories)window.jtpApplyInventoryDescriptions?.(inv);return renderBeforeItemDescriptions.apply(this,arguments);};
