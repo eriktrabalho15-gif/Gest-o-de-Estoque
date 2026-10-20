@@ -6,3 +6,5 @@
 
 /* Peso regular nos dados e controles; destaque consistente apenas nos títulos. */
 @media(max-width:700px){body,button,input,select,textarea{font-weight:400}#content b,#content strong,#content td,#content td small,#content label,#content button,#content input,#content select,.login-session-summary b,.login-session-summary strong{font-weight:400!important}#content h2,#content h3{font-weight:600!important}.counting-screen .count-item-code,.counting-screen .allocation-code,.counting-screen .count-base span{font-weight:400}.counting-screen .task-save{min-height:16px}.counting-screen .bp-save-count{display:none!important}}
+
+.assignment-split-toggle{display:flex;align-items:center;gap:10px}.assignment-split-toggle input{width:18px;min-height:18px}.inventory-wms-toolbar{margin:10px 0}.wms-change-history{margin-top:20px}.wms-change-history summary{cursor:pointer;padding:10px 0}.wms-change-history table{font-size:12px}#wms-current{display:block;margin:5px 0 12px}#wms-item-fields[hidden]{display:none!important}
