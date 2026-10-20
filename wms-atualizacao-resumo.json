@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-20T08:44:21-03:00",
+  "mode": "update",
+  "changed": true,
+  "branches": [
+    {
+      "unit": "300",
+      "file": "C:\\Users\\erik.barreto\\JTP TRANSPORTES, SERVICOS, GERENCIAMENTO E RECURSOS HUMANOS LTDA\\Operações Seguras - Documentos\\N3 - Manutenção\\05 - Suprimentos\\WMS - Bragança Paulista\\WMS\\WMS - Bragança Paulista - Oficial.xlsx",
+      "modifiedAt": "2026-10-20T08:40:52.532460-03:00",
+      "sha256": "e7a8e39b088f1595f87ec04afb97f76aaa4195acfd21130e6a5cfb7f48282b9a",
+      "positions": 1579,
+      "rows": 1579,
+      "codes": 1396,
+      "multiAddressCodes": 3,
+      "changed": true
+    },
+    {
+      "unit": "2002",
+      "file": "C:\\Users\\erik.barreto\\JTP TRANSPORTES, SERVICOS, GERENCIAMENTO E RECURSOS HUMANOS LTDA\\Operações Seguras - Documentos\\N3 - Manutenção\\05 - Suprimentos\\WMS - CD\\WMS CD Oficial2.xlsx",
+      "modifiedAt": "2026-10-19T17:16:36-03:00",
+      "sha256": "b75237150d8c22cfa05b52c207331398ecd0ae5a7a83d71569079d49dca871b7",
+      "positions": 3202,
+      "rows": 3203,
+      "codes": 2178,
+      "multiAddressCodes": 0,
+      "changed": false
+    },
+    {
+      "unit": "200",
+      "file": "C:\\Users\\erik.barreto\\JTP TRANSPORTES, SERVICOS, GERENCIAMENTO E RECURSOS HUMANOS LTDA\\Operações Seguras - Documentos\\N3 - Manutenção\\05 - Suprimentos\\WMS - Porto Velho\\WMS - PVH - Oficial.xlsx",
+      "modifiedAt": "2026-05-21T14:44:26-03:00",
+      "sha256": "069a4631b1a1b8eb3f8ed33bc076bd7a8298fc788d0e369f3cdb19b59cc49123",
+      "positions": 1800,
+      "rows": 1806,
+      "codes": 1675,
+      "multiAddressCodes": 20,
+      "changed": false
+    },
+    {
+      "unit": "123",
+      "file": "C:\\Users\\erik.barreto\\JTP TRANSPORTES, SERVICOS, GERENCIAMENTO E RECURSOS HUMANOS LTDA\\Operações Seguras - Documentos\\N3 - Manutenção\\05 - Suprimentos\\Suprimentos 2026\\Acre_Rio_Branco\\WMS - Rio Branco - Oficial.xlsx",
+      "modifiedAt": "2026-10-05T19:09:02-03:00",
+      "sha256": "33665797815003659bc33f04beab1be7ec5f5d04d4aefb6995e90f0a6350e0c1",
+      "positions": 210,
+      "rows": 210,
+      "codes": 169,
+      "multiAddressCodes": 5,
+      "changed": false
+    }
+  ],
+  "errors": [],
+  "package": "C:\\Users\\erik.barreto\\Documents\\Codex\\2026-10-13\\c\\outputs\\atualizacao-wms-pendente.zip",
+  "publication": "Pendente: subir no GitHub"
+}
